@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: hcm-lite
+    runtime: docker
+    plan: starter            # persistent disks need a paid instance; free instances lose data on redeploy
+    disk: { name: hcm-data, mountPath: /data, sizeGB: 1 }
+    envVars:
+      - { key: DATA_DIR, value: /data }
+      - { key: OFFICE_TZ, value: Asia/Karachi }
+      - { key: AI_API_KEY, sync: false }
