@@ -1,4 +1,8 @@
 # HCM Lite - AI-assisted Human Capital Management (Saylani Hackathon)
+## HCM Lite — Live Demo
+
+Open Live Application
+https://hcm-lite-hr-face-attendance-88a66.containers.snapdeploy.app
 
 Admin / HR / Employee web app: first-run setup, employees (auto-created logins), attendance (web + optional camera/GPS), leave,
 payroll with tax slabs and payslips, dashboards, AI assistant (tool calling), announcements, notifications and an immutable audit log.
